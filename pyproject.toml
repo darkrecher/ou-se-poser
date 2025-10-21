@@ -1,0 +1,19 @@
+[project]
+name = "ou-se-poser"
+version = "0.1.0"
+description = "Carte affichant les bancs publics à partir de données OpenStreetMap."
+authors = [
+    {name = "Recher"}
+]
+license = {text = "CC BY-SA 2.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "osmnx (>=2.0.6,<3.0.0)",
+    "folium (>=0.20.0,<0.21.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
