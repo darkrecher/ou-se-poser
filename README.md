@@ -1,5 +1,7 @@
 # Où se poser à Toulouse, Castres et Albi
 
+[Voir la carte](https://darkrecher.github.io/ou-se-poser/ou_se_poser_a_toulouse.html)
+
 Ce projet génère une carte affichant les bancs et sièges publics, à partir de données OpenStreetMap, dans un rectangle englobant Toulouse, Castres et Albi.
 
 Il s'agit d'un simple projet de démonstration, utilisant les librairies python "folium" et "osmnx".
